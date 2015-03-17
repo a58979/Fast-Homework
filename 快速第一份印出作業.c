@@ -5,7 +5,7 @@ int main()
 	int i;
 	for(i=0;i<9;++i)
 	{
-		printf("egg-%d\n",i+1);
+		printf("egg-%d\n",i+1); // %d is print integer !
 	}
 	
 	return 123;
