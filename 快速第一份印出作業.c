@@ -2,7 +2,11 @@
 
 int main()
 {
-	printf("egg\n");
+	int i;
+	for(i=0;i<9;++i)
+	{
+		printf("egg-%d\n",i+1);
+	}
 	
 	return 123;
 	
